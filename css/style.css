@@ -1,0 +1,180 @@
+*{
+	-webkit-box-sizing: box-sizing;
+	-moz-box-sizing: box-sizing;
+	-ms-box-sizing: box-sizing;
+	box-sizing: box-sizing;
+}
+
+@media only screen and (max-width: 500px) {
+	.col-md-2 img {
+		display:none;
+		/*background-color: blue;*/
+	}
+} 
+
+@media only screen and (max-width: 1000px) {
+	.col-md-3 {
+		display:none;
+		/*background-color: blue;*/
+	}
+
+	.col-md-6 {
+		display:none;
+		/*background-color: blue;*/
+	}
+} 
+
+@media only screen and (max-width: 750px) {
+	a {
+		display:none;
+	}
+}
+@media only screen and (max-width: 400px) {
+	h3 {
+		display:none;
+	}
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1024px;
+}
+.row {
+	/*width: 100%;*/
+	display: flex; 
+	flex-wrap: nowrap;
+}
+.col-md-2 {
+	padding-right: 0;
+	padding-left: 0;
+}
+.col-md-2 img{
+	width: 100%;
+	height: 100%;
+}
+.col-md-3 {
+	padding-right: 0;
+	padding-left: 0;
+}
+.col-md-4 {
+	padding-right: 0;
+	padding-left: 0;
+	text-align: right;
+}
+.col-md-4 img{
+	width: 90%;
+	height: 90%;
+	display: block;
+	margin: auto;
+}
+.col-md-5 {
+	padding-right: 0;
+	padding-left: 0;
+	text-align: right;
+}
+.col-md-6 {
+	padding-right: 0;
+	padding-left: 0;
+}
+.col-md-8 {
+	padding-right: 0;
+	padding-left: 0;
+}
+.col-md-9 {
+	padding-right: 0;
+	padding-left: 0;
+}
+.col-md-10 {
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+}
+.col-md-12 {
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+}
+.col-md-12 img{
+	margin-top: 10px;
+	width: 100%;
+	height: 100%;
+}
+.col-md-12 h3{
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+}
+.col-md-12 h2{
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: #AAAAAA;
+	width: 100%
+	text-align: left;
+}
+.name {
+	font-family: 'Lato', sans-serif;
+	font-size: 60px;
+	width: 100%;
+	margin-top: 20px;
+	/*text-align: right;*/
+}
+.talent {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	width: 100%;
+}
+.subject {
+	font-weight: bold;
+	width: 100%;
+	text-align: left;
+	margin-top: 10px;
+}
+hr { 
+    display: block;
+	height: 3px;
+	background-color: #BCBBBB;
+	width: 100%;
+} 
+.project {
+	margin: 0 auto;
+	color: #AAAAAA;
+	text-align: center;
+}
+.resume-spread {
+	margin-bottom: 30px;
+}
+.resume-margin {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.resume-date {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: right;
+}
+.education-spread {
+	margin-bottom: 15px;
+}
+h3{
+}
+h4{
+	margin: 0 auto;
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+}
+a {
+	color: #0000FF;
+}
+a:link {
+	color:#0000FF; 
+	background-color:transparent; 
+	text-decoration:none;
+}
+a:hover {
+	color:#ff0000; 
+	background-color:transparent; 
+	text-decoration:underline;
+}
